@@ -89,10 +89,10 @@ header {
 
 p.hour-line {
     margin: 5px;
-    font-size: 1.25em;
+    font-size: 2em;
     font-family: "Montserrat", cursive;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .hours-text {
@@ -106,12 +106,9 @@ h1 {
 }
 
 h2 {
-    margin-top: -15px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    display:inline-block;
-    background-color: var(--red-1);
-    color: black;
+    font-size: 2em;
+    text-align: center;
+    color: white;
     padding: 2px;
     font-family: "Montserrat", cursive;
 }

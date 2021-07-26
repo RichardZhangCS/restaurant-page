@@ -17,7 +17,6 @@ function loadHomePage() {
 
 
     const hoursBox = document.createElement('div');
-    hoursBox.classList.add('info-box');
 
     const hoursTitle = document.createElement('h2');
     hoursTitle.textContent = 'Hours';
