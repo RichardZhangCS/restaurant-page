@@ -1,6 +1,7 @@
 import {loadHomePage, removeAllTabActivation} from './homepageloader.js'
 import {loadTabs} from './tabloader.js'
 import {loadMenuPage} from './menupageloader.js'
+import {loadContactPage} from './contactpageloader.js'
 let currentPage = '';
 
 let [homeTab, menuTab, contactTab] = loadTabs();

@@ -8,12 +8,6 @@ import SpicyMungBeanJelly from './food-pictures/spicy mung bean jelly.jpg'
 import TwiceCookedPork from './food-pictures/twice cooked pork.jpg'
 import WaterBoiledFish from './food-pictures/water boiled fish.jpg'
 
-function removeAllChildNodes(parent) {
-    while (parent.firstChild) {
-        parent.removeChild(parent.firstChild);
-    }
-}
-
 function createMenuEntry(dishName, dishPrice, dishImage) {
     const menuEntry = document.createElement('div');
     menuEntry.classList.add('menu-entry');
@@ -39,7 +33,6 @@ function createMenuEntry(dishName, dishPrice, dishImage) {
 
 function loadMenuPage() {
     const contentContainer = document.querySelector('div#content');
-    removeAllChildNodes(contentContainer);
 
     const menuPage = document.createElement('div');
     menuPage.classList.add('menu-page');

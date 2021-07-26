@@ -21,6 +21,7 @@ function loadHomePage() {
 
     const hoursTitle = document.createElement('h2');
     hoursTitle.textContent = 'Hours';
+    hoursTitle.classList.add('hours-text');
     hoursBox.append(hoursTitle);
 
     const daysHours = {'Monday':'3pm - 10pm', 'Tuesday':'3pm - 10pm', 'Wednesday':'3pm - 10pm', 
